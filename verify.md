@@ -7,6 +7,10 @@ handoffs:
     agent: apply
     prompt: 'Address the verification issues identified above.'
     send: false
+  - label: Fix Issues (TDD Only)
+    agent: apply-tdd-only
+    prompt: 'Address the verification issues identified above using strict TDD (no BDD layer).'
+    send: false
   - label: Archive Change
     agent: archive
     prompt: 'Archive this change and merge specs into the main library.'
