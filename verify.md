@@ -78,4 +78,5 @@ Ready to archive: Yes / No / Yes with warnings
 
 - **DO NOT** modify any code, specs, design, or tasks.
 - **DO NOT** fix issues — only report them.
+- **DO NOT** write the verification report to a file at the repository root — output it in chat only, or write it to `openspec/changes/<change-name>/verification-report.md`.
 - Verify is advisory — it never blocks archive.

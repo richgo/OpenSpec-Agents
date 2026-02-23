@@ -176,3 +176,5 @@ Total tests added: <n>
 - **DO NOT** skip the refactor step — it is where the design emerges.
 - **DO NOT** modify specs or design files — flag issues for the developer.
 - **DO NOT** implement beyond what is in the task list — no scope creep.
+- **DO NOT** create summary, completion, or report markdown files at the repository root — progress is communicated in chat and tracked via `tasks.md` checkboxes only.
+- **DO NOT** create `.sql` files for any purpose — there is no todos database. Update `tasks.md` checkboxes directly (`- [ ]` → `- [x]`).

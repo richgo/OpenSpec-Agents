@@ -425,3 +425,5 @@ Uncovered scenarios: <list or "none">
 - **DO NOT** invent scenarios not present in `specs/` — the specs are the single source of truth for behaviour.
 - **DO NOT** write BDD scenarios as plain unit tests — use the configured BDD framework.
 - **DO NOT** skip unit tests for edge cases because the BDD scenario passes — scenario coverage ≠ edge case coverage.
+- **DO NOT** create summary, completion, or report markdown files at the repository root — progress is communicated in chat and tracked via `tasks.md` checkboxes only.
+- **DO NOT** create `.sql` files for any purpose — there is no todos database. Update `tasks.md` checkboxes directly (`- [ ]` → `- [x]`).
